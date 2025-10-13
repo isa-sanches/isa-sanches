@@ -56,8 +56,11 @@ Gosto de colaborar, aprender na prática e contribuir com soluções que realmen
 [![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/vz4dU9Vq)
 
 
+<div align="center">
 
+![snake gif](https://github.com/isa-sanches/isa-sanches/blob/output/snake.svg)
 
+</div>
 
 
 
