@@ -1,9 +1,11 @@
 name: Generate Snake
-
 on:
   schedule:
-    - cron: "0 0 * * *"  
-  workflow_dispatch:    
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write   
 
 jobs:
   build:
@@ -19,7 +21,12 @@ jobs:
           github_user_name: isa-sanches
           outputs: dist/snake.svg
 
-      - name: Push to GitHub
+      - name: List dist folder (debug)
+        run: |
+          echo "Conteúdo da pasta dist:"
+          ls -la dist || true
+
+      - name: Commit & Push SVG to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
