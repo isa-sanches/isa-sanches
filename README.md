@@ -30,7 +30,6 @@ Sou estudante de **Engenharia da Computação** com atuação profissional em **
 | Configuração e entrega de equipamentos corporativos |
 | Participação em projetos de implantação de sistemas e fornecedores |
 | Manutenção básica de cabeamento e infraestrutura de redes |
-| Participação em projetos de implantação de sistemas e fornecedores|
 
 Gosto de colaborar, aprender na prática e contribuir com soluções que realmente funcionam.
 
